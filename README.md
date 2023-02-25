@@ -26,7 +26,7 @@ Our work was based on the idea of converting the informations contained in the w
 After changes in the architecture and in the way weight images were created, we were able to reach a point where the model was learning the right translation, but it was collapsing. Collapsing is a term used to indicate when a GAN model returns the same output, no matter what the input image is. 
 Due to time reasons, we decided to leave this project aside. 
 
-If yuo want to try and train the model by yourself, create a folder and download the "cycleGAN_image_to_promp" and "dataset_pca" folder inside of it. Then open your terminal, cd to the "code" folder and type "python train_test.py"
+If yuo want to try and train the model by yourself, create a project folder and download the "cycleGAN_image_to_promp" inside of it. Inside the project folder, create a folder called "dataset" and inside of it another one called "dataset_pca". Inside this last folder, download the other files you find in the description (except for the .yml file). Then open your terminal, cd to the "code" folder and type "python train_test.py"
 
 If you have any additional questions, feel free to contact me at: fracastelli98@gmail.com
 
