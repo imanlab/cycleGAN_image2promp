@@ -13,7 +13,7 @@ The trajectories are then converted to a ProMP weights distribution to which a P
 The project framework is shown in the picture below:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/82958449/221241427-023ab43b-60a0-46ed-829d-8929689d1344.png" width=100% height=75% />
+  <img src="https://user-images.githubusercontent.com/82958449/221241427-023ab43b-60a0-46ed-829d-8929689d1344.png" width=75% height=50% />
 </p>
 
 
