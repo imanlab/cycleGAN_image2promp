@@ -6,6 +6,8 @@ The project is about Probabilistic Movement Primitives (ProMP) prediction, throu
 
 The strawberry is approached by a Franka Emika robotic arm, with an eye-on-hand Realsense camera. The camera takes a picture of the strawberry cluster, that is then feed to the deep model that performs the trajectory distribution prediction, from which a trajectory is sampled and executed. 
 
+We carried out the project using a conda virtual environment with Python 3.9 and Tensorflow 2.7. You can replicate the exact same environment from the "environment.yml" file.
+
 The dataset on which the model is trained is comprehensive of strawberry images and collected trajectories. You can read more about the collected dataset, and download it raw, here: https://github.com/imanlab/Franka_datacollection_pipeline . 
 
 The trajectories are then converted to a ProMP weights distribution to which a Principal Component Analysis is applied, in order to reduce the dimensionality of the to-be-predicted data. 
