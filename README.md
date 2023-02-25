@@ -13,10 +13,10 @@ The trajectories are then converted to a ProMP weights distribution to which a P
 The project framework is shown in the picture below:
 
 
-![Screenshot from 2023-02-24 17-01-22](https://user-images.githubusercontent.com/82958449/221241427-023ab43b-60a0-46ed-829d-8929689d1344.png) { width: 100px ; height: 100px } 
+<img src="https://user-images.githubusercontent.com/82958449/221241427-023ab43b-60a0-46ed-829d-8929689d1344.png" width="200" height="100">
 
 
-We faced many difficulties through out the project. Other than being notoriously difficult to train, cycleGAN are used for ImageToImage translation, translating a characteristic from a pictures domain to another (very famous is the example of the Horse2Zebra example). 
+We faced many difficulties through out the project. Other than being notoriously difficult to train, cycleGAN are used for ImageToImage translation tasks, meaning translating a feature from a pictures domain to another (very famous is the Horse2Zebra example). 
 
 Our work was based on the idea of converting the informations contained in the weights distribution into an image, and train the cycleGAN model to learn the translation from the strawberry image domain, the the (so called) weight images one. 
 
