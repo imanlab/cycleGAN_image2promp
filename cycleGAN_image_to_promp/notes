@@ -1,0 +1,13 @@
+THIS FILE CONTAINS USEFUL INFOS AND NOTES REGARDING THE cycleGAN_Image_to_weight PROJECT
+
+
+"weights_1dof.py" ; "weights.py" ; "traj_from_weights.py" ; "weight_matrix_recomposition.py" ; "data.py" ; "datasets.py" 
+
+These above are the files created with Chiara. The others (model, preprocessing, train_test, config) are the ones I created specifically for the cycleGAN project.
+
+"weights.py" NON e` piu` da usare perche ora la pca la computiamo prima di impilare le covarianze
+
+
+- MODELS TRAINED: 
+	19/11/22 ==> trained on the weight_image_rowcol dataset.npy, without any preprocessing operation on the weight_vector 
+	 
